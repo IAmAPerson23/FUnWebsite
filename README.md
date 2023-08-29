@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Random Cool Website</title>
 <style>
+  /* Global styles */
   body {
     font-family: 'Arial', sans-serif;
     background-color: #1a1a1a;
@@ -12,14 +13,11 @@
     margin: 0;
     padding: 0;
   }
-  header {
-    background-color: #222;
-    padding: 20px;
-    text-align: center;
-  }
   h1 {
     font-size: 36px;
     margin: 0;
+    padding: 20px;
+    text-align: center;
   }
   main {
     padding: 20px;
@@ -58,9 +56,6 @@
 
   /* Snake game styles */
   #snake-game-container {
-    position: fixed;
-    top: 0;
-    left: 0;
     background-color: #333;
     width: 200px;
     height: 200px;
@@ -81,9 +76,7 @@
 </style>
 </head>
 <body>
-  <header>
-    <h1>Welcome to the Random Cool Website</h1>
-  </header>
+  <h1>Welcome to the Random Cool Website</h1>
   <main>
     <p>This is a place of creativity and inspiration. Explore the possibilities!</p>
     <button class="cta-button">Learn More</button>
